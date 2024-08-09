@@ -9,6 +9,7 @@
     <!-- swiper, slider -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="CSS/style.css?<?= rand() ?>">
+    <link rel="stylesheet" href="CSS/phone.css?<?= rand() ?>">
     <script src="js/script.js?<?= rand() ?>" defer></script>
     <title>Cotechcom</title>
 </head>
@@ -25,13 +26,13 @@
 
             <div class="menu_nav flex">
                 <ul>
-                    <li class="btn_nav active link_color_white"><a href="index.php">Accueil</a></li>
-                    <li class="btn_nav link_color_white"><a href="services.php">Services</a></li>
+                    <li class="btn_nav link_color_white"><a href="index.php">Accueil</a></li>
+                    <li class="btn_nav link_color_white"><a href="service.php">Services</a></li>
                     <li class="btn_nav link_color_white"><a href="about.php">à Propos</a></li>
                     <li class="btn_nav link_color_white"><a href="contact.php">Contact</a></li>
                     <li class="btn_nav link_color_white">
                         <div class="circle">
-                            <a class="flex" href="contact.php">
+                            <a class="flex" href="">
                                 <div class="circle_phone flex">
                                     <div class="circle_phone_logo">
                                         <img src="image/phone.svg" alt="">
@@ -41,6 +42,7 @@
                             </a>
                         </div>
                     </li>
+                </ul>
             </div>
 
             <div class="menu_hamburger" id="hamburger">

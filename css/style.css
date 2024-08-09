@@ -11,7 +11,7 @@
     --font_titre_service_descr: 12pt;
     --font_button: 14pt;
     --font_button2: 11pt;
-    --outline: #ffffff;
+    --outline: #FF7200;
     --texte: #ffffff;
     --all_texte: #0000000;
     --link_text: #0C154B;
@@ -45,6 +45,10 @@ a {
     border: 2px solid var(--link_text);
     margin-top: 25px;
     cursor: pointer;
+}
+
+.button_phone {
+    display: none;
 }
 
 .button2 {
@@ -130,8 +134,8 @@ header {
     text-transform: uppercase;
 }
 
-.btn_nav.active a {
-    font-weight: 500;
+nav ul li a.active {
+    font-weight: 600;
     color: var(--dots-color);
 }
 
@@ -431,6 +435,8 @@ header {
     border-radius: 10px;
 }
 
+/* slider_raelisaion */
+
 .slider_real_bottom .slide2 {
     position: relative;
     background: url(../image/slide_real_all2.png);
@@ -641,6 +647,7 @@ header {
     width: 100%;
     height: 400px;
     padding-top: 75px;
+    padding-bottom: 75px;
     background-color: var(--menu_color) !important;
 }
 
@@ -648,15 +655,105 @@ header {
     color: var(--dots-color);
 }
 
-.parten_items{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin-right: 20px;
+.parten_all {
+    gap: 10px;
+    justify-content: center;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: auto;
 }
 
-.parten_items img{
-    justify-content: center;
+.parten_items {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.parten_items img {
     object-fit: cover;
     width: 100%;
+}
+
+
+/* Services page*/
+.slide_service_about_contact {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slide_contact {
+    background-image: url(../image/slide_contact.png);
+}
+
+.slide_about {
+    background-image: url(../image/slide_about.jpg);
+}
+
+.slide_service {
+    background-image: url(../image/slide_service.jpg);
+}
+
+.slide_filter_service {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #091a3dd6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide_text_service {
+    color: white;
+    font-size: 18pt;
+    width: 550px;
+    ;
+}
+
+.slide_text_service h1 {
+    font-size: 30pt;
+}
+
+.slide_realisation_title {
+    color: white;
+    font-size: 16pt;
+    justify-content: center;
+}
+
+.show_reading {
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    background: white;
+    box-shadow: 0px 0px 1px 0px;
+    justify-content: center;
+}
+
+.text_dur_title {
+    font-weight: 800;
+}
+
+.reading_pictures {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: left;
+}
+
+.read_pic_items {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.read_pic_items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

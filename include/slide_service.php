@@ -68,7 +68,7 @@
     <div class="section_presentation_left">
         <div class="section_presnt_lef_title">
             <p>
-                Qui sommes-nous?
+                Qui sommes-nous ?
             </p>
         </div>
         <div class="section_presentation_left_description">
@@ -87,17 +87,17 @@
 
 <div class="service flex space_interne">
     <div class="service_left_right space2 flex">
-        <div class="section_presentation_left service_left wow animate__animated animate__fadeInLeft animated">
+        <div class="space_bottom section_presentation_left service_left wow animate__animated animate__fadeInLeft animated">
             <div class="section_presnt_lef_title service_left_title">
                 <p>
                     Nos services
                 </p>
             </div>
-            <div class="section_presentation_left_description service_present_left">
+            <div class="section_pres_pc section_presentation_left_description service_present_left">
                 <p>COTECHCOM est une société spécialisée dans la Communication, la Technologie et la construction des
                     forages.</p>
             </div>
-            <div class="button2 button">
+            <div class="button_pc button2 button">
                 <p>Tous les services</p>
             </div>
         </div>
@@ -111,7 +111,24 @@
                                     <img src="image/icone_btp.svg" alt="Avatar">
                                     <p>Bâtiments & Travaux Publics</p>
                                 </div>
-
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="flip-card-back-filter">
+                                    <div class="flip-card-back-text">
+                                        <p>Bâtiments & Travaux Publics</p>
+                                    </div>
+                                </div>
+                                <img src="image/service_btp.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card flex">
+                        <div class="flip-card-inner flex">
+                            <div class="flip-card-front flex">
+                                <div class="flip-card-front-image flex">
+                                    <img src="image/icone_btp.svg" alt="Avatar">
+                                    <p>Bâtiments & Travaux Publics</p>
+                                </div>
                             </div>
                             <div class="flip-card-back">
                                 <div class="flip-card-back-filter">
@@ -149,7 +166,6 @@
                                     <img src="image/icone_btp.svg" alt="Avatar">
                                     <p>Bâtiments & Travaux Publics</p>
                                 </div>
-
                             </div>
                             <div class="flip-card-back">
                                 <div class="flip-card-back-filter">
@@ -168,7 +184,6 @@
                                     <img src="image/icone_btp.svg" alt="Avatar">
                                     <p>Bâtiments & Travaux Publics</p>
                                 </div>
-
                             </div>
                             <div class="flip-card-back">
                                 <div class="flip-card-back-filter">
@@ -187,26 +202,6 @@
                                     <img src="image/icone_btp.svg" alt="Avatar">
                                     <p>Bâtiments & Travaux Publics</p>
                                 </div>
-
-                            </div>
-                            <div class="flip-card-back">
-                                <div class="flip-card-back-filter">
-                                    <div class="flip-card-back-text">
-                                        <p>Bâtiments & Travaux Publics</p>
-                                    </div>
-                                </div>
-                                <img src="image/service_btp.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flip-card flex">
-                        <div class="flip-card-inner flex">
-                            <div class="flip-card-front flex">
-                                <div class="flip-card-front-image flex">
-                                    <img src="image/icone_btp.svg" alt="Avatar">
-                                    <p>Bâtiments & Travaux Publics</p>
-                                </div>
-
                             </div>
                             <div class="flip-card-back">
                                 <div class="flip-card-back-filter">
@@ -219,6 +214,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="button2 button button_phone">
+                <p>Tous les services</p>
             </div>
         </div>
     </div>

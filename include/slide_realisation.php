@@ -5,7 +5,7 @@
         </div>
         <div class="flex swiper mySwiper space2">
             <div class="swiper-wrapper flex">
-                <a href="" class="swiper-slide">
+                <a href="best_show.php" class="swiper-slide">
                     <div class="swiper-slide-text-slide">
                         <div class="swiper-slide-text-haut">
                             <p>Réalisation d’un forage d’eau potable à la Likouala</p>
@@ -16,7 +16,7 @@
                     </div>
                     <img src="image/slide_real2.jpg" />
                 </a>
-                <a href="" class="swiper-slide">
+                <a href="best_show.php" class="swiper-slide">
                     <div class="swiper-slide-text-slide">
                         <div class="swiper-slide-text-haut">
                             <p>Réalisation d’un forage d’eau potable à la Likouala</p>
@@ -27,7 +27,7 @@
                     </div>
                     <img src="image/slide_real2.jpg" />
                 </a>
-                <a href="" class="swiper-slide">
+                <a href="best_show.php" class="swiper-slide">
                     <div class="swiper-slide-text-slide">
                         <div class="swiper-slide-text-haut">
                             <p>Réalisation d’un forage d’eau potable à la Likouala</p>
@@ -38,7 +38,7 @@
                     </div>
                     <img src="image/slide_real2.jpg" />
                 </a>
-                <a href="" class="swiper-slide">
+                <a href="best_show.php" class="swiper-slide">
                     <div class="swiper-slide-text-slide">
                         <div class="swiper-slide-text-haut">
                             <p>Réalisation d’un forage d’eau potable à la Likouala</p>
@@ -49,7 +49,7 @@
                     </div>
                     <img src="image/slide_real2.jpg" />
                 </a>
-                <a href="" class="swiper-slide">
+                <a href="best_show.php" class="swiper-slide">
                     <div class="swiper-slide-text-slide">
                         <div class="swiper-slide-text-haut">
                             <p>Réalisation d’un forage d’eau potable à la Likouala</p>
@@ -60,7 +60,7 @@
                     </div>
                     <img src="image/slide_real2.jpg" />
                 </a>
-                <a href="" class="swiper-slide">
+                <a href="best_show.php" class="swiper-slide">
                     <div class="swiper-slide-text-slide">
                         <div class="swiper-slide-text-haut">
                             <p>Réalisation d’un forage d’eau potable à la Likouala</p>
@@ -71,7 +71,7 @@
                     </div>
                     <img src="image/slide_real2.jpg" />
                 </a>
-                <a href="" class="swiper-slide">
+                <a href="best_show.php" class="swiper-slide">
                     <div class="swiper-slide-text-slide">
                         <div class="swiper-slide-text-haut">
                             <p>Réalisation d’un forage d’eau potable à la Likouala</p>

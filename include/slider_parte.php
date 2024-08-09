@@ -4,23 +4,23 @@
             <p>Ils nous font <span class="text_color">confiance</span></p>
         </div>
     </div>
-    <div class="parten_all flex space2">
-        <div class="parten_items">
+    <div class="parten_all flex space">
+        <div class="parten_items flex">
             <img src="image/enco.png" alt="">
         </div>
-        <div class="parten_items">
+        <div class="parten_items flex">
             <img src="image/rp.png" alt="">
         </div>
-        <div class="parten_items">
+        <div class="parten_items flex">
             <img src="image/gret.png" alt="">
         </div>
-        <div class="parten_items">
+        <div class="parten_items flex">
             <img src="image/ue.png" alt="">
         </div>
-        <div class="parten_items">
+        <div class="parten_items flex">
             <img src="image/banque.png" alt="">
         </div>
-        <div class="parten_items">
+        <div class="parten_items flex">
             <img src="image/bralico.png" alt="">
         </div>
     </div>
