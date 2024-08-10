@@ -33,6 +33,12 @@
         display: inline-block;
     }
 
+    .button:hover,
+    .button2:hover {
+        transition: none;
+       border-radius: 0%;
+    }
+
     .service a {
         color: var(--texte);
     }
@@ -446,7 +452,7 @@
         margin: 0;
     }
 
-    .slide2{
+    .slide2 {
         width: 80%;
         margin: auto;
         justify-content: center;
