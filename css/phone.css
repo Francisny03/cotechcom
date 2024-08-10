@@ -8,9 +8,10 @@
         --font_button2: 8pt;
         --outline: #FF7200;
         --border: 2px solid var(--outline);
+        --texte: #ffffff;
     }
 
-    .button {
+    a .button {
         padding: 10px;
         font-size: var(--font_button);
         color: var(--texte);
@@ -19,17 +20,25 @@
         margin-top: 20px;
     }
 
-    .button2 {
+    a .button2 {
         font-size: var(--font_button2);
         padding: 10px;
     }
 
-    .button_pc {
+    a .button_pc {
         display: none;
     }
 
-    .button_phone {
+    a .button_phone {
         display: inline-block;
+    }
+
+    .service a {
+        color: var(--texte);
+    }
+
+    .section_presentation a {
+        color: var(--texte);
     }
 
     .space {
@@ -173,7 +182,7 @@
     }
 
     .section_presentation_left {
-        width: auto;
+        max-width: 100%;
     }
 
     .section_presnt_lef_title p {
@@ -209,7 +218,7 @@
     }
 
     .section_presentation_right {
-        width: auto;
+        max-width: 90%;
     }
 
     .section_presentation_right img {
@@ -230,7 +239,7 @@
     }
 
     .service_right {
-        width: auto;
+        max-width: 100%;
     }
 
     .service_left_title p {
@@ -257,13 +266,14 @@
     }
 
     .flip-card-front-image img {
-        width: 74px;
+        width: 70px;
     }
 
     .flip-card-front-image p {
         color: var(--link_text);
-        font-size: 9pt;
-        left: 10px;
+        font-size: 8pt;
+        padding: 5px;
+        left: 6px;
     }
 
     /* Slider_realisation */
@@ -389,7 +399,6 @@
 
     .choice_items {
         gap: 10px;
-        flex-direction: column;
     }
 
     .choicenumber p {
@@ -401,7 +410,7 @@
     }
 
     .choicetextSub {
-        max-width: 332px;
+        width: auto;
         font-size: 10pt;
     }
 
@@ -427,6 +436,7 @@
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
         gap: 10px;
+        width: 86%;
     }
 
     .parten_items {
@@ -436,13 +446,10 @@
         margin: 0;
     }
 
-    .parten_items img {
+    .slide2{
+        width: 80%;
+        margin: auto;
         justify-content: center;
-        object-fit: cover;
-        width: 100%;
-        display: flex;
-        align-items: center;
     }
-
 
 }

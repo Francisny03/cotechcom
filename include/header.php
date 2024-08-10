@@ -16,7 +16,7 @@
 
 <body>
 
-    <header>
+    <header id="navBar">
         <nav class="nav_bar flex space_header">
             <div class="logo_container">
                 <a href="index.php">
@@ -32,7 +32,8 @@
                     <li class="btn_nav link_color_white"><a href="contact.php">Contact</a></li>
                     <li class="btn_nav link_color_white">
                         <div class="circle">
-                            <a class="flex" href="">
+                            <a class="flex"
+                                href="https://api.whatsapp.com/send?phone=%2B242069321352&context=ARD89EEUoSuYa4Ep1E6d3gR7OP0VIaWKMnGLahXn03sqJqUi1m7ifAZrP6Gw7Rrmo3O1PTG21mWr5_QhDtOSUGUWPwV8oAASo_2HLcM-OUHFx2Q2IeTWYH4h5Uy-vKJ7EhHqAAOQH0q9MR4ZlEmunLAA8A&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR3CBzjaOVj945WrjvqW4WqZojPNCgxKAIed4Ts_AyRcxvxYs9UsFi77gVk_aem_AWaR-McLahJtN6JqKqC48CcTh2r7rY6K6ZZdiS-8CykcwfM1DxYADU9PxavMoUcGPywa-LmXY_ncxDkGaZrwpv5J">
                                 <div class="circle_phone flex">
                                     <div class="circle_phone_logo">
                                         <img src="image/phone.svg" alt="">

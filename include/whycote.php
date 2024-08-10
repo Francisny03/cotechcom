@@ -1,4 +1,4 @@
-<div class="section_presentation flex space2 space_bottom">
+<div class="space_interne section_presentation flex space2 space_bottom">
     <div class="section_presentation_left">
         <div class="section_presnt_lef_title">
             <p>
@@ -31,48 +31,49 @@
         <div class="flex choice_items">
             <div class="choicenumber choicenumber1">
                 <span class="ellipse flex">
-                    <p>1</p>
+                    <p>2</p>
                 </span>
             </div>
             <div class="choicetext choicetext1">
                 <div class="choicetextTitle">
-                    <p>Expertise multidisciplinaire </p>
+                    <p>Satisfaction client </p>
                 </div>
                 <div class="choicetextSub">
-                    <p>Nos équipes spécialisées dans divers secteurs vous garantissent des
-                        solutions intégrées et complètes.</p>
+                    <p>Votre satisfaction est notre priorité. Nous mettons tout en œuvre
+                        pour dépasser vos attentes.</p>
                 </div>
             </div>
         </div>
         <div class="flex choice_items">
             <div class="choicenumber choicenumber1">
                 <span class="ellipse flex">
-                    <p>1</p>
+                    <p>3</p>
                 </span>
             </div>
             <div class="choicetext choicetext1">
                 <div class="choicetextTitle">
-                    <p>Expertise multidisciplinaire </p>
+                    <p>Engagement qualité</p>
                 </div>
                 <div class="choicetextSub">
-                    <p>Nos équipes spécialisées dans divers secteurs vous garantissent des
-                        solutions intégrées et complètes.</p>
+                    <p>
+                        Nous nous engageons à fournir des services de haute qualité,
+                        répondant aux standards les plus stricts.</p>
                 </div>
             </div>
         </div>
         <div class="flex choice_items">
             <div class="choicenumber choicenumber1">
                 <span class="ellipse flex">
-                    <p>1</p>
+                    <p>4</p>
                 </span>
             </div>
             <div class="choicetext choicetext1">
                 <div class="choicetextTitle">
-                    <p>Expertise multidisciplinaire </p>
+                    <p>Réactivité et flexibilité </p>
                 </div>
                 <div class="choicetextSub">
-                    <p>Nos équipes spécialisées dans divers secteurs vous garantissent des
-                        solutions intégrées et complètes.</p>
+                    <p>Nous sommes disponibles et adaptables pour répondre rapidement à 
+                        toutes vos demandes.</p>
                 </div>
             </div>
         </div>

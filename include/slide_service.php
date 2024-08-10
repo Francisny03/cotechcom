@@ -76,9 +76,12 @@
                 forages. Engagée dans une dynamique de croissance, elle développe les segments des particuliers et des
                 professionnels, tout en consolidant ses relations avec les entreprises.</p>
         </div>
-        <div class="button">
-            <p>En savoir plus</p>
-        </div>
+        <a href="about.php">
+            <div class="button">
+                <p>En savoir plus</p>
+            </div>
+        </a>
+
     </div>
     <div class="section_presentation_right">
         <img src="image/who_are_we.png" alt="">
@@ -87,7 +90,8 @@
 
 <div class="service flex space_interne">
     <div class="service_left_right space2 flex">
-        <div class="space_bottom section_presentation_left service_left wow animate__animated animate__fadeInLeft animated">
+        <div
+            class="space_bottom section_presentation_left service_left wow animate__animated animate__fadeInLeft animated">
             <div class="section_presnt_lef_title service_left_title">
                 <p>
                     Nos services
@@ -97,9 +101,12 @@
                 <p>COTECHCOM est une société spécialisée dans la Communication, la Technologie et la construction des
                     forages.</p>
             </div>
-            <div class="button_pc button2 button">
-                <p>Tous les services</p>
-            </div>
+            <a href="service.php">
+                <div class="button_pc button2 button">
+                    <p>Tous les services</p>
+                </div>
+            </a>
+
         </div>
         <div class="section_presentation_right service_right">
             <div class="all_services flex">
@@ -215,9 +222,12 @@
                     </div>
                 </div>
             </div>
-            <div class="button2 button button_phone">
-                <p>Tous les services</p>
-            </div>
+            <a href="service.php">
+                <div class="button2 button button_phone">
+                    <p>Tous les services</p>
+                </div>
+            </a>
+
         </div>
     </div>
 </div>

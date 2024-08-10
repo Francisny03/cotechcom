@@ -35,7 +35,7 @@ a {
     text-decoration: none;
 }
 
-.button {
+a .button {
     display: inline-block;
     padding: 20px;
     color: var(--all_texte);
@@ -45,13 +45,22 @@ a {
     border: 2px solid var(--link_text);
     margin-top: 25px;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
-.button_phone {
+.button:hover,
+.button2:hover {
+    background-color: var(--link_text);
+    color: var(--menu_color);
+    transition: all 1s ease 0s;
+    border-radius: 50px;
+}
+
+a .button_phone {
     display: none;
 }
 
-.button2 {
+a .button2 {
     font-size: var(--font_button2);
     padding: 10px;
 }
@@ -106,6 +115,11 @@ header {
     position: fixed;
     top: 0;
     overflow: hidden;
+    transition: all 80ms ease-out;
+}
+
+header.scrolled {
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.12);
 }
 
 .nav_bar {
@@ -121,10 +135,12 @@ header {
     list-style-type: none;
     display: inline-block;
     margin-right: 30px;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn_nav:hover a {
     color: var(--dots-color);
+    transition: all 0.3s ease-in-out;
 }
 
 .btn_nav a {
@@ -268,10 +284,15 @@ nav ul li a.active {
 .section_presentation {
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
+}
+
+.section_presentation a{
+    color: var(--all_texte);
 }
 
 .section_presentation_left {
-    width: 45%;
+    max-width: 45%;
 }
 
 .section_presnt_lef_title p {
@@ -307,11 +328,11 @@ nav ul li a.active {
 }
 
 .section_presentation_right {
-    width: 45%;
+    max-width: 55%;
 }
 
 .section_presentation_right img {
-    width: 100%;
+    width: 90%;
 
 }
 
@@ -321,17 +342,22 @@ nav ul li a.active {
     background: var(--menu_color);
 }
 
+.service a{
+    color: var(--all_texte);
+}
+
 .service_left_right {
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .service_left {
-    width: 30%;
+    max-width: 30%;
     margin-right: 30px;
 }
 
 .service_right {
-    width: 70%;
+    max-width: 70%;
 }
 
 .service_left_title p {
@@ -393,7 +419,7 @@ nav ul li a.active {
 }
 
 .flip-card-front-image img {
-    width: 150px;
+    width: 130px;
     position: relative;
     top: -20px;
 }
@@ -466,6 +492,7 @@ nav ul li a.active {
 
 .slider_real_bottom .swiper-wrapper {
     gap: 30px;
+    transition: all 1s ease-in-out;
 }
 
 .slider_real_bottom .swiper-slide {
@@ -494,18 +521,18 @@ nav ul li a.active {
     z-index: 15;
     border-radius: 10px;
     background-image: linear-gradient(to top, rgb(12 21 75 / 100%), rgb(79 255 3 / 0%)) !important;
-    transition-duration: 0ms !important;
+    transition-duration: 0s !important;
     transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1) !important;
 }
 
 .slider_real_bottom .swiper-slide.swiper-slide-visible {
     z-index: 0 !important;
-    transition-duration: 0ms !important;
+    transition-duration: 0s !important;
     transform: translate3d(0px, 0px, -450px) rotateX(0deg) rotateY(0deg) scale(1) !important;
 }
 
 .slider_real_bottom .swiper-slide-next .swiper-slide-prev {
-    transition-duration: 0ms;
+    transition-duration: 0s;
     transform: translate3d(0px, 0px, -110px) rotateX(0deg) rotateY(-55deg) scale(1);
     z-index: 0;
 }
@@ -664,8 +691,8 @@ nav ul li a.active {
 }
 
 .parten_items {
-    width: 150px;
-    height: 150px;
+    width: 119px;
+    height: 119px;
     border-radius: 100%;
 }
 
