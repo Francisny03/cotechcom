@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- wow animate_animated -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- swiper, slider -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="CSS/style.css?<?= rand() ?>">
@@ -24,14 +23,14 @@
                 </a>
             </div>
 
-            <div class="menu_nav flex">
+            <div class="menu_nav flex" id="menuNav">
                 <ul>
                     <li class="btn_nav link_color_white"><a href="index.php">Accueil</a></li>
                     <li class="btn_nav link_color_white"><a href="service.php">Services</a></li>
                     <li class="btn_nav link_color_white"><a href="about.php">à Propos</a></li>
                     <li class="btn_nav link_color_white"><a href="contact.php">Contact</a></li>
-                    <li class="btn_nav link_color_white">
-                        <div class="circle">
+                    <li class="btn_nav link_color_white contact_number social_media">
+                        <div class="circle flex">
                             <a class="flex"
                                 href="https://api.whatsapp.com/send?phone=%2B242069321352&context=ARD89EEUoSuYa4Ep1E6d3gR7OP0VIaWKMnGLahXn03sqJqUi1m7ifAZrP6Gw7Rrmo3O1PTG21mWr5_QhDtOSUGUWPwV8oAASo_2HLcM-OUHFx2Q2IeTWYH4h5Uy-vKJ7EhHqAAOQH0q9MR4ZlEmunLAA8A&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR3CBzjaOVj945WrjvqW4WqZojPNCgxKAIed4Ts_AyRcxvxYs9UsFi77gVk_aem_AWaR-McLahJtN6JqKqC48CcTh2r7rY6K6ZZdiS-8CykcwfM1DxYADU9PxavMoUcGPywa-LmXY_ncxDkGaZrwpv5J">
                                 <div class="circle_phone flex">
@@ -43,6 +42,21 @@
                             </a>
                         </div>
                     </li>
+                    <div class="social_media_all flex">
+                        <div class="social_media_items flex facebok">
+                            <a href="https://www.facebook.com/Cotechcom"><img src="image/facebok.svg" alt=""></a>
+                        </div>
+                        <div class="social_media_items flex insta">
+                            <a href="https://www.instagram.com/cotechcom/"><img src="image/instagram.svg" alt=""></a>
+                        </div>
+                        <div class="social_media_items flex linkedin">
+                            <a href="https://www.linkedin.com/company/103672188/admin/page-posts/published/"><img
+                                    src="image/linkedin.svg" alt=""></a>
+                        </div>
+                        <div class="social_media_items flex twitter">
+                            <a href="https://x.com/cotechcom"><img src="image/x.svg" alt=""></a>
+                        </div>
+                    </div>
                 </ul>
             </div>
 

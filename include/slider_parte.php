@@ -1,4 +1,4 @@
-<div class="slider_partenaire space space_bottom">
+<div class="slider_partenaire space">
     <div class="slide2 flex">
         <div class="text_confiance">
             <p>Ils nous font <span class="text_color">confiance</span></p>

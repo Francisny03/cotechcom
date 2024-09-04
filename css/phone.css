@@ -36,7 +36,7 @@
     .button:hover,
     .button2:hover {
         transition: none;
-       border-radius: 0%;
+        border-radius: 0%;
     }
 
     .service a {
@@ -80,8 +80,8 @@
         width: 84px;
     }
 
-    .menu_nav {
-        display: none;
+    header {
+        height: 50px;
     }
 
     .menu_hamburger {
@@ -93,10 +93,6 @@
 
     .menu_hamburger:first-child {
         margin-top: 0;
-    }
-
-    header {
-        height: 50px;
     }
 
     .bar1,
@@ -134,29 +130,97 @@
         transform: translateY(-200%) rotate(45deg);
     }
 
-    .menu_nav_actived {
+    .menu_nav {
         position: fixed;
         top: 0;
-        left: 0;
-        padding-top: 20px;
-        padding-left: 20px;
-        background-color: rgb(255, 255, 255);
-        width: 60%;
+        left: -72%;
+        width: 59%;
         height: 100%;
-        display: flex;
+        padding: 20px;
+        background-color: #0C154Bf2;
         flex-direction: column;
-        transition: transform 0.5s ease-in-out;
         transform: translateX(0);
+        transition: transform 0.5s ease;
     }
 
-    .menu_nav {
-        transform: translateX(-100%);
+    .menu_nav_actived {
+        transform: translateX(100%);
     }
-
 
     .menu_nav li {
         border-bottom: 1px dotted var(--outline);
-        padding: 10px 20px;
+        padding: 10px 10px 10px 20px;
+        width: 80%;
+    }
+
+    nav ul li a.active {
+        font-weight: 600;
+        color: var(--dots-color);
+    }
+
+    .btn_nav a {
+        color: var(--texte);
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .social_media {
+        display: flex;
+        border-bottom: none !important;
+        margin-top: 355px;
+        padding: 0 !important;
+    }
+
+    .social_media_items a {
+        display: flex;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: white;
+        padding: 5px;
+    }
+
+    .circle {
+        border: none;
+        border-radius: 0px;
+        margin-bottom: 25px;
+        width: 200px;
+        padding: 0;
+    }
+
+    .circle_phone {
+        width: auto;
+        margin: 0;
+        background: none;
+    }
+
+    .circle_phone_logo {
+        width: 30px;
+        height: auto;
+    }
+
+    .circle a {
+        gap: 5px;
+        font-size: 12pt;
+    }
+
+    .social_media_items img {
+        width: 15px;
+        filter: brightness(0) saturate(100%) invert(10%) sepia(24%) saturate(4620%) hue-rotate(214deg) brightness(101%) contrast(107%);
+    }
+
+    .twitter img {
+        width: 16px;
+    }
+
+    .facebok img {
+        width: 15px;
+    }
+
+    .social_media_all {
+        display: flex;
+        gap: 10px;
     }
 
     .slider_top .swiper-button-next,
@@ -271,6 +335,11 @@
         perspective: 1000px;
     }
 
+    .flip-card-back-text {
+        font-size: 8pt;
+        left: 6px;
+    }
+
     .flip-card-front-image img {
         width: 70px;
     }
@@ -340,7 +409,6 @@
         color: var(--texte);
         z-index: 14;
     }
-
 
     .slider_real_bottom .swiper-slide-text-haut {
         font-size: 10pt;
@@ -456,6 +524,76 @@
         width: 80%;
         margin: auto;
         justify-content: center;
+    }
+
+    .slide_realisation_title h1 {
+        font-size: 16pt;
+    }
+
+    .slide_service_about_contact {
+        height: 250px;
+    }
+
+
+    /* image-gallery-viewer */
+    .modal-content {
+        width: 90%;
+    }
+
+    #image-viewer .close {
+        top: 53px;
+        right: 9px;
+        font-size: 40px;
+    }
+
+    #image-viewer {
+        padding-top: 120px;
+    }
+
+    .read_pic_items {
+        width: 125px;
+        height: 150px;
+    }
+
+    .read_pic_items img {
+        border-radius: 3px;
+
+    }
+
+
+
+    footer {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .footer_items {
+        width: 90%;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .footer_items_left {
+        width: 100%;
+    }
+
+    .circle_icone {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer_items_center {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .footer_items_right {
+        display: none;
+    }
+
+    .copyright_powered {
+        font-size: 7pt;
+        width: 90%;
     }
 
 }

@@ -26,6 +26,9 @@ include('include/header.php')
                     <img src="image/read1.png" alt="">
                 </div>
                 <div class="read_pic_items">
+                    <img src="image/read1.png" alt="">
+                </div>
+                <div class="read_pic_items">
                     <img src="image/read2.png" alt="">
                 </div>
                 <div class="read_pic_items">
@@ -49,6 +52,11 @@ include('include/header.php')
             </div>
         </div>
     </div>
+</div>
+
+<div id="image-viewer">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="full-image">
 </div>
 
 

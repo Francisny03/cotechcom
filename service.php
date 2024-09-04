@@ -11,3 +11,8 @@ include('include/header.php')
         </div>
     </div>
 </div>
+
+
+<?php
+include('include/footer.php')
+?>

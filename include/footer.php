@@ -1,10 +1,103 @@
 </body>
 
-<br>
-<br>
-<br>
+<footer>
+    <div class="footer_items">
+        <div class="footer_items_left">
+            <h2><span class="text_color">Contactez-</span>Nous</h2>
+            <div class="contacter flex">
+                <div class="circle_icone flex">
+                    <img src="image/phones.svg" alt="">
+                </div>
+                <div class="contacter_number">
+                    <p>+242 06 692 86 86</p>
+                    <p>+242 04 072 96 96</p>
+                </div>
+            </div>
+            <div class="contacter flex">
+                <div class="circle_icone flex">
+                    <img src="image/mail.svg" alt="">
+                </div>
+                <div class="contacter_number">
+                    <p>contact@cotechcom.com</p>
+                </div>
+            </div>
+            <div class="contacter flex">
+                <div class="circle_icone flex">
+                    <img src="image/placeholder.svg" alt="">
+                </div>
+                <div class="contacter_number">
+                    <p>54, Avenue Félix Eboué,
+                        Centre-Ville</p>
+                </div>
+            </div>
 
-footer test
+            <br>
+            <br>
+
+            <h2><span class="text_color">suivez-</span>nous</h2>
+            <div class="follow_icons flex">
+                <div class="circle_icone facebook">
+                    <a href="https://www.facebook.com/Cotechcom">
+                        <img src="image/facebook.svg" alt="">
+                    </a>
+                </div>
+                <a href="https://www.instagram.com/cotechcom/">
+                    <div class="circle_icone">
+                        <img src="image/insta.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://x.com/cotechcom">
+                    <div class="circle_icone">
+                        <img src="image/X.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/company/103672188/admin/page-posts/published/">
+                    <div class="circle_icone">
+                        <img src="image/link.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer_items_center">
+            <h2>A <span class="text_color">Propos</span></h2>
+            <div class="page_link">
+                <p><a href="index.php">
+                        Qui sommes-nous ?
+                    </a>
+                </p>
+                <p><a href="index.php">
+                        Nos réalisations
+                    </a>
+                </p>
+            </div>
+            <br>
+            <br>
+            <h2>Nos <span class="text_color">Valeurs</span></h2>
+            <div class="values">
+                <p><span class="circle_value flex"></span>Innovation</p>
+                <p><span class="circle_value"></span>Engagement</p>
+                <p><span class="circle_value"></span>Qualité</p>
+                <p><span class="circle_value"></span>Responsabilité</p>
+            </div>
+        </div>
+        <div class="footer_items_right flex">
+            <img src="image/logo_big.svg" alt="">
+        </div>
+    </div>
+
+    <div class="border_line"></div>
+
+    <div class="copyright_powered">
+        <div class=" copyright">
+            <p>COPYRIGHT © 2024 COTEHCOM</p>
+        </div>
+        <div class="powered">
+            <p>Développé par Rêveurs professionnels</p>
+        </div>
+    </div>
+
+</footer>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -29,7 +122,7 @@ var swiper = new Swiper(".slider_real_bottom .mySwiper", {
 
     // Autoplay
     autoplay: {
-        delay: 250000, // délai entre chaque diapositive (en millisecondes)
+        delay: 2500, // délai entre chaque diapositive (en millisecondes)
         disableOnInteraction: false, // le défilement automatique ne s'arrête pas lors de l'interaction utilisateur
     },
 
