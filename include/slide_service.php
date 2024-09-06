@@ -89,7 +89,7 @@
 </div>
 
 <div class="service flex space_interne">
-    <div class="service_left_right space2 flex">
+    <div class="service_left_right flex">
         <div
             class="space_bottom section_presentation_left service_left wow animate__animated animate__fadeInLeft animated">
             <div class="section_presnt_lef_title service_left_title">
@@ -112,113 +112,265 @@
             <div class="all_services flex">
                 <div class="wow animate__animated animate__fadeInRight animated services_item flex">
                     <div class="flip-card flex">
-                        <div class="flip-card-inner flex">
-                            <div class="flip-card-front flex">
-                                <div class="flip-card-front-image flex">
-                                    <img src="image/icone_btp.svg" alt="Avatar">
-                                    <p>Bâtiments & Travaux Publics</p>
-                                </div>
-                            </div>
-                            <div class="flip-card-back">
-                                <div class="flip-card-back-filter">
-                                    <div class="flip-card-back-text">
+                        <a href="">
+                            <div class="flip-card-inner flex">
+                                <div class="flip-card-front flex">
+                                    <div class="flip-card-front-image flex">
+                                        <div class="circle_service">
+                                            <img src="image/icons_btp.svg" alt="Avatar">
+                                        </div>
                                         <p>Bâtiments & Travaux Publics</p>
                                     </div>
                                 </div>
-                                <img src="image/service_btp.png" alt="">
+                                <div class="flip-card-back">
+                                    <div class="flip-card-back-image">
+                                        <img src="image/service_btp.png" alt="">
+                                    </div>
+                                    <div class="flip-card-back-filter">
+                                        <div class="flip-card-back-circle flex">
+                                            <div class="circle_service_back">
+                                                <img src="image/icons_btp.svg" alt="Avatar">
+                                            </div>
+                                            <div class="circle_service_text">
+                                                <p>Bâtiments & Travaux Publics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="flip-card flex">
-                        <div class="flip-card-inner flex">
-                            <div class="flip-card-front flex">
-                                <div class="flip-card-front-image flex">
-                                    <img src="image/icone_btp.svg" alt="Avatar">
-                                    <p>Bâtiments & Travaux Publics</p>
-                                </div>
-                            </div>
-                            <div class="flip-card-back">
-                                <div class="flip-card-back-filter">
-                                    <div class="flip-card-back-text">
+                        <a href="">
+                            <div class="flip-card-inner flex">
+                                <div class="flip-card-front flex">
+                                    <div class="flip-card-front-image flex">
+                                        <div class="circle_service">
+                                            <img src="image/icons_btp.svg" alt="Avatar">
+                                        </div>
                                         <p>Bâtiments & Travaux Publics</p>
                                     </div>
                                 </div>
-                                <img src="image/service_btp.png" alt="">
+                                <div class="flip-card-back">
+                                    <div class="flip-card-back-image">
+                                        <img src="image/service_btp.png" alt="">
+                                    </div>
+                                    <div class="flip-card-back-filter">
+                                        <div class="flip-card-back-circle flex">
+                                            <div class="circle_service_back">
+                                                <img src="image/icons_btp.svg" alt="Avatar">
+                                            </div>
+                                            <div class="circle_service_text">
+                                                <p>Bâtiments & Travaux Publics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="flip-card flex">
-                        <div class="flip-card-inner flex">
-                            <div class="flip-card-front flex">
-                                <div class="flip-card-front-image flex">
-                                    <img src="image/icone_btp.svg" alt="Avatar">
-                                    <p>Bâtiments & Travaux Publics</p>
-                                </div>
-
-                            </div>
-                            <div class="flip-card-back">
-                                <div class="flip-card-back-filter">
-                                    <div class="flip-card-back-text">
+                        <a href="">
+                            <div class="flip-card-inner flex">
+                                <div class="flip-card-front flex">
+                                    <div class="flip-card-front-image flex">
+                                        <div class="circle_service">
+                                            <img src="image/icons_btp.svg" alt="Avatar">
+                                        </div>
                                         <p>Bâtiments & Travaux Publics</p>
                                     </div>
                                 </div>
-                                <img src="image/service_btp.png" alt="">
+                                <div class="flip-card-back">
+                                    <div class="flip-card-back-image">
+                                        <img src="image/service_btp.png" alt="">
+                                    </div>
+                                    <div class="flip-card-back-filter">
+                                        <div class="flip-card-back-circle flex">
+                                            <div class="circle_service_back">
+                                                <img src="image/icons_btp.svg" alt="Avatar">
+                                            </div>
+                                            <div class="circle_service_text">
+                                                <p>Bâtiments & Travaux Publics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="flip-card flex">
-                        <div class="flip-card-inner flex">
-                            <div class="flip-card-front flex">
-                                <div class="flip-card-front-image flex">
-                                    <img src="image/icone_btp.svg" alt="Avatar">
-                                    <p>Bâtiments & Travaux Publics</p>
-                                </div>
-                            </div>
-                            <div class="flip-card-back">
-                                <div class="flip-card-back-filter">
-                                    <div class="flip-card-back-text">
+                        <a href="">
+                            <div class="flip-card-inner flex">
+                                <div class="flip-card-front flex">
+                                    <div class="flip-card-front-image flex">
+                                        <div class="circle_service">
+                                            <img src="image/icons_btp.svg" alt="Avatar">
+                                        </div>
                                         <p>Bâtiments & Travaux Publics</p>
                                     </div>
                                 </div>
-                                <img src="image/service_btp.png" alt="">
+                                <div class="flip-card-back">
+                                    <div class="flip-card-back-image">
+                                        <img src="image/service_btp.png" alt="">
+                                    </div>
+                                    <div class="flip-card-back-filter">
+                                        <div class="flip-card-back-circle flex">
+                                            <div class="circle_service_back">
+                                                <img src="image/icons_btp.svg" alt="Avatar">
+                                            </div>
+                                            <div class="circle_service_text">
+                                                <p>Bâtiments & Travaux Publics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="flip-card flex">
-                        <div class="flip-card-inner flex">
-                            <div class="flip-card-front flex">
-                                <div class="flip-card-front-image flex">
-                                    <img src="image/icone_btp.svg" alt="Avatar">
-                                    <p>Bâtiments & Travaux Publics</p>
-                                </div>
-                            </div>
-                            <div class="flip-card-back">
-                                <div class="flip-card-back-filter">
-                                    <div class="flip-card-back-text">
+                        <a href="">
+                            <div class="flip-card-inner flex">
+                                <div class="flip-card-front flex">
+                                    <div class="flip-card-front-image flex">
+                                        <div class="circle_service">
+                                            <img src="image/icons_btp.svg" alt="Avatar">
+                                        </div>
                                         <p>Bâtiments & Travaux Publics</p>
                                     </div>
                                 </div>
-                                <img src="image/service_btp.png" alt="">
+                                <div class="flip-card-back">
+                                    <div class="flip-card-back-image">
+                                        <img src="image/service_btp.png" alt="">
+                                    </div>
+                                    <div class="flip-card-back-filter">
+                                        <div class="flip-card-back-circle flex">
+                                            <div class="circle_service_back">
+                                                <img src="image/icons_btp.svg" alt="Avatar">
+                                            </div>
+                                            <div class="circle_service_text">
+                                                <p>Bâtiments & Travaux Publics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="flip-card flex">
-                        <div class="flip-card-inner flex">
-                            <div class="flip-card-front flex">
-                                <div class="flip-card-front-image flex">
-                                    <img src="image/icone_btp.svg" alt="Avatar">
-                                    <p>Bâtiments & Travaux Publics</p>
-                                </div>
-                            </div>
-                            <div class="flip-card-back">
-                                <div class="flip-card-back-filter">
-                                    <div class="flip-card-back-text">
+                        <a href="">
+                            <div class="flip-card-inner flex">
+                                <div class="flip-card-front flex">
+                                    <div class="flip-card-front-image flex">
+                                        <div class="circle_service">
+                                            <img src="image/icons_btp.svg" alt="Avatar">
+                                        </div>
                                         <p>Bâtiments & Travaux Publics</p>
                                     </div>
                                 </div>
-                                <img src="image/service_btp.png" alt="">
+                                <div class="flip-card-back">
+                                    <div class="flip-card-back-image">
+                                        <img src="image/service_btp.png" alt="">
+                                    </div>
+                                    <div class="flip-card-back-filter">
+                                        <div class="flip-card-back-circle flex">
+                                            <div class="circle_service_back">
+                                                <img src="image/icons_btp.svg" alt="Avatar">
+                                            </div>
+                                            <div class="circle_service_text">
+                                                <p>Bâtiments & Travaux Publics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
+                    </div>
+                    <div class="flip-card flex">
+                        <a href="">
+                            <div class="flip-card-inner flex">
+                                <div class="flip-card-front flex">
+                                    <div class="flip-card-front-image flex">
+                                        <div class="circle_service">
+                                            <img src="image/icons_btp.svg" alt="Avatar">
+                                        </div>
+                                        <p>Bâtiments & Travaux Publics</p>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div class="flip-card-back-image">
+                                        <img src="image/service_btp.png" alt="">
+                                    </div>
+                                    <div class="flip-card-back-filter">
+                                        <div class="flip-card-back-circle flex">
+                                            <div class="circle_service_back">
+                                                <img src="image/icons_btp.svg" alt="Avatar">
+                                            </div>
+                                            <div class="circle_service_text">
+                                                <p>Bâtiments & Travaux Publics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flip-card flex">
+                        <a href="">
+                            <div class="flip-card-inner flex">
+                                <div class="flip-card-front flex">
+                                    <div class="flip-card-front-image flex">
+                                        <div class="circle_service">
+                                            <img src="image/icons_btp.svg" alt="Avatar">
+                                        </div>
+                                        <p>Bâtiments & Travaux Publics</p>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div class="flip-card-back-image">
+                                        <img src="image/service_btp.png" alt="">
+                                    </div>
+                                    <div class="flip-card-back-filter">
+                                        <div class="flip-card-back-circle flex">
+                                            <div class="circle_service_back">
+                                                <img src="image/icons_btp.svg" alt="Avatar">
+                                            </div>
+                                            <div class="circle_service_text">
+                                                <p>Bâtiments & Travaux Publics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flip-card flex">
+                        <a href="">
+                            <div class="flip-card-inner flex">
+                                <div class="flip-card-front flex">
+                                    <div class="flip-card-front-image flex">
+                                        <div class="circle_service">
+                                            <img src="image/icons_btp.svg" alt="Avatar">
+                                        </div>
+                                        <p>Bâtiments & Travaux Publics</p>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div class="flip-card-back-image">
+                                        <img src="image/service_btp.png" alt="">
+                                    </div>
+                                    <div class="flip-card-back-filter">
+                                        <div class="flip-card-back-circle flex">
+                                            <div class="circle_service_back">
+                                                <img src="image/icons_btp.svg" alt="Avatar">
+                                            </div>
+                                            <div class="circle_service_text">
+                                                <p>Bâtiments & Travaux Publics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
