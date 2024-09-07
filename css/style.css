@@ -90,6 +90,11 @@ a .button2 {
     margin: auto;
 }
 
+.space3 {
+    width: 60%;
+    margin: auto;
+}
+
 .space_header {
     width: 83%;
     margin: auto;
@@ -110,6 +115,10 @@ a .button2 {
 .space_interne {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.space_contact {
+    margin-bottom: 550px;
 }
 
 /* header */
@@ -1161,7 +1170,7 @@ h2 {
     width: 200px;
 }
 
-.equipe_photo{
+.equipe_photo {
     gap: 20px;
 }
 
@@ -1221,4 +1230,97 @@ h2 {
 
 .card_icons_circle:hover img {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+/* contact */
+.contact_card {
+    background-color: var(--menu_color);
+    padding: 15px;
+    position: absolute;
+    top: 43%;
+    left: 15%;
+    border-radius: 5px;
+}
+
+.contact_card_items {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact_left {
+    display: flex;
+    margin-left: 20px;
+    gap: 30px;
+    flex-direction: column;
+    width: 60%;
+}
+
+.write_text p {
+    font-size: 15pt;
+    color: #7A7A7A;
+    font-weight: 500;
+}
+
+.write_rect {
+    margin-bottom: 10px;
+    border: none;
+}
+
+.prenom,
+.mail,
+.texte {
+    width: 80%;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.texte {
+    margin-top: 15px;
+}
+
+::placeholder {
+    color: #989898;
+    font-size: 10pt;
+    font-family: poppins;
+    opacity: 0.7;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 10px;
+    color: var(--texte);
+    font-weight: 500;
+    font-size: 12pt;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: var(--link_text);
+    transition: all 0.3s ease 0s;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF7200;
+    color: black;
+}
+
+.contact_right {
+    width: 40%;
+}
+
+.contact_right_card_icons{
+    margin-top: 80px;
+}
+
+.contact_right_card {
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
