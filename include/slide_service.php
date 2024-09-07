@@ -89,16 +89,16 @@
 </div>
 
 <div class="service flex space_interne">
-    <div class="service_left_right flex">
-        <div
-            class="space_bottom section_presentation_left service_left wow animate__animated animate__fadeInLeft animated">
+    <div class="service_index_page flex">
+        <div class="service_left">
             <div class="section_presnt_lef_title service_left_title">
                 <p>
                     Nos services
                 </p>
             </div>
             <div class="section_pres_pc section_presentation_left_description service_present_left">
-                <p>COTECHCOM est une société spécialisée dans la Communication, la Technologie et la construction des
+                <p>COTECHCOM est une société spécialisée dans la Communication, la Technologie et la construction
+                    des
                     forages.</p>
             </div>
             <a href="service.php">
@@ -106,7 +106,6 @@
                     <p>Tous les services</p>
                 </div>
             </a>
-
         </div>
         <div class="section_presentation_right service_right">
             <div class="all_services flex">
@@ -382,4 +381,5 @@
 
         </div>
     </div>
+</div>
 </div>

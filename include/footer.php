@@ -31,28 +31,29 @@
                 </div>
             </div>
 
+
             <br>
             <br>
 
             <h2><span class="text_color">suivez-</span>nous</h2>
             <div class="follow_icons flex">
-                <div class="circle_icone facebook">
-                    <a href="https://www.facebook.com/Cotechcom">
+                <a href="https://www.facebook.com/Cotechcom">
+                    <div class="circle_icone facebook">
                         <img src="image/facebook.svg" alt="">
-                    </a>
-                </div>
+                    </div>
+                </a>
                 <a href="https://www.instagram.com/cotechcom/">
-                    <div class="circle_icone">
+                    <div class="circle_icone insta">
                         <img src="image/insta.svg" alt="">
                     </div>
                 </a>
                 <a href="https://x.com/cotechcom">
-                    <div class="circle_icone">
+                    <div class="circle_icone x">
                         <img src="image/X.svg" alt="">
                     </div>
                 </a>
                 <a href="https://www.linkedin.com/company/103672188/admin/page-posts/published/">
-                    <div class="circle_icone">
+                    <div class="circle_icone linkedin">
                         <img src="image/link.svg" alt="">
                     </div>
                 </a>

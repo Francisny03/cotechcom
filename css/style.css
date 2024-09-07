@@ -5,7 +5,7 @@
     --font_slider_st: 18pt;
     --font_titre_weight: 900;
     --font_titre_low_weight: 300;
-    --font_tire_qsn: 45pt;
+    --font_tire_qsn: 40pt;
     --font_titre_qsn_descr: 12pt;
     --font-titre_service: 20pt;
     --font_titre_service_descr: 12pt;
@@ -47,6 +47,7 @@ a .button {
     margin-top: 25px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    max-width: 550px;
 }
 
 .button:hover,
@@ -195,6 +196,7 @@ nav ul li a.activer {
 
 .circle_phone_logo img {
     width: 100%;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(0%) hue-rotate(144deg) brightness(102%) contrast(102%);
 }
 
 .circle a {
@@ -306,7 +308,7 @@ nav ul li a.activer {
 }
 
 .section_presentation_left {
-    max-width: 45%;
+    width: 45%;
 }
 
 .section_presnt_lef_title p {
@@ -315,7 +317,7 @@ nav ul li a.activer {
     text-transform: uppercase;
     color: var(--link_text);
     position: relative;
-    width: 250px;
+    width: 450px;
     line-height: 1.2;
 }
 
@@ -326,7 +328,7 @@ nav ul li a.activer {
     height: 10px;
     display: block;
     position: absolute;
-    top: 70px;
+    top: 60px;
     margin-left: 10px;
 }
 
@@ -342,7 +344,7 @@ nav ul li a.activer {
 }
 
 .section_presentation_right {
-    max-width: 55%;
+    width: 40%;
 }
 
 .section_presentation_right img {
@@ -359,7 +361,7 @@ nav ul li a.activer {
     color: var(--all_texte);
 }
 
-.service_left_right {
+.service_index_page {
     width: 70%;
     margin: auto;
     flex-wrap: wrap;
@@ -367,12 +369,12 @@ nav ul li a.activer {
 }
 
 .service_left {
-    max-width: 30%;
-    margin-right: 30px;
+    width: 25%;
+    flex-wrap: wrap;
 }
 
 .service_right {
-    max-width: 70%;
+    width: 70%;
 }
 
 .service_left_title p {
@@ -947,6 +949,7 @@ h2 {
 .contacter {
     margin-top: 5px;
     margin-bottom: 5px;
+    gap: 10px;
 }
 
 .circle_icone {
@@ -957,7 +960,6 @@ h2 {
     border-radius: 100%;
     justify-content: center;
     padding: 5px;
-    margin-right: 5px;
 }
 
 .circle_icone img {
@@ -969,13 +971,15 @@ h2 {
     display: flex;
 }
 
-.contacter_number {
+.contacter_number p {
     color: var(--texte);
     font-size: var(--font_button);
+    max-width: 250px;
 }
 
 .follow_icons {
     padding-top: 5px;
+    gap: 10px;
 }
 
 .footer_items_center {
@@ -1045,6 +1049,42 @@ h2 {
     margin: auto;
 }
 
+.circle_icone {
+    transition: background-color 0.3s ease, background-image 0.3s ease;
+}
+
+.facebook:hover {
+    background-color: #1877F2;
+}
+
+.facebook:hover img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.insta:hover {
+    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.insta:hover img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.x:hover {
+    background-color: black;
+}
+
+.x:hover img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.linkedin:hover {
+    background-color: #0A66C2;
+}
+
+.linkedin:hover img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
 /* service_page */
 .service_items_slide {
     height: 300px;
@@ -1095,4 +1135,90 @@ h2 {
 .service_items_fiche p {
     text-align: justify;
     font-size: 13pt;
+}
+
+/* about */
+.about_page_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about_left {
+    width: 75%;
+}
+
+.about p {
+    text-align: justify;
+    width: 700px;
+}
+
+.about_right {
+    width: 25%;
+}
+
+.about_right img {
+    width: 200px;
+}
+
+.equipe_photo{
+    gap: 20px;
+}
+
+.equipe_card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ECECEC;
+    padding: 15px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card_pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.card_pic img {
+    width: 100%;
+}
+
+.card_text p {
+    font-size: 13pt;
+    font-family: poppins;
+}
+
+.card_text h4 {
+    font-size: 13pt;
+    font-weight: 700;
+}
+
+.card_icons {
+    gap: 10px;
+}
+
+.card_icons_circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background: none;
+    justify-content: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.card_icons_circle img {
+    width: 60%;
+}
+
+.card_icons_circle:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.card_icons_circle:hover img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
 }
