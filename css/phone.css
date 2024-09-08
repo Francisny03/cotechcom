@@ -29,8 +29,14 @@
         display: none;
     }
 
-    a .button_phone {
+    .button_phone a {
         display: inline-block;
+        padding: 10px;
+        color: var(--texte);
+        background-color: var(--link_text);
+        font-size: 8pt;
+        border-radius: 5px;
+        border: 2px solid var(--link_text);
     }
 
     .button:hover,
@@ -74,6 +80,10 @@
     .space_interne {
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    .space_contact {
+        margin-bottom: 385px;
     }
 
     .logo_container img {
@@ -252,7 +262,7 @@
     }
 
     .section_presentation_left {
-        max-width: 100%;
+        width: 100%;
     }
 
     .section_presnt_lef_title p {
@@ -281,14 +291,14 @@
     }
 
     .section_presentation_left_description p {
-        font-size: var(--font_slider_st);
+        font-size: 10pt;
         width: 300px;
         text-align: justify;
         line-height: 1.2;
     }
 
     .section_presentation_right {
-        max-width: 90%;
+        width: 90%;
     }
 
     .section_presentation_right img {
@@ -299,17 +309,13 @@
         width: 100%;
     }
 
-    .service_left_right {
-        flex-direction: column;
-        justify-content: space-between;
+    .service_index_page {
+        width: 80%;
+        gap: 15px;
     }
 
     .service_left {
         width: auto;
-    }
-
-    .service_right {
-        max-width: 100%;
     }
 
     .service_left_title p {
@@ -326,12 +332,22 @@
 
     .services_item {
         gap: 10px;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        margin-top: 15px;
     }
 
-    .flip-card {
-        width: 130px;
-        height: 130px;
+    .service_right {
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 20px;
+        scrollbar-width: none;
+        width: 100%;
+    }
+
+    .flip-card a {
+        width: 123px;
+        height: 166px;
         perspective: 1000px;
     }
 
@@ -346,10 +362,24 @@
 
     .flip-card-front-image p {
         color: var(--link_text);
-        font-size: 8pt;
+        font-size: 10pt;
         padding: 5px;
-        left: 6px;
+        font-weight: 500;
     }
+
+    .circle_service {
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        box-shadow: rgba(0, 0, 0, 0.15) -3px 3px 2.6px;
+    }
+
+    .circle_service img {
+        width: 65%;
+        filter: brightness(0) saturate(100%) invert(32%) sepia(0%) saturate(2957%) hue-rotate(260deg) brightness(91%) contrast(90%);
+    }
+
 
     /* Slider_realisation */
 
@@ -523,11 +553,12 @@
     .slide2 {
         width: 80%;
         margin: auto;
-        justify-content: center;
+        text-align: center;
     }
 
     .slide_realisation_title h1 {
         font-size: 16pt;
+        max-width: 300px;
     }
 
     .slide_service_about_contact {
@@ -559,8 +590,6 @@
         border-radius: 3px;
 
     }
-
-
 
     footer {
         padding-top: 30px;
@@ -594,6 +623,116 @@
     .copyright_powered {
         font-size: 7pt;
         width: 90%;
+    }
+
+    /* service page */
+    .slide_service_about_contact {
+        height: 200px;
+        position: relative;
+    }
+
+    .slide_text_service {
+        display: flex;
+        color: white;
+        font-size: 12pt;
+        gap: 7px;
+        flex-direction: column;
+    }
+
+    .slide_text_service h1 {
+        font-size: 15pt;
+    }
+
+    .flip-card-phone a {
+        width: 133px;
+        height: 135px;
+        perspective: 1000px;
+    }
+
+    .service_items_lr {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .slide_text_service_items_left {
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .slide_text_service_items_left img {
+        width: 40px;
+    }
+
+    .service_items_fiche p {
+        font-size: 10pt;
+    }
+
+    .slide_text_service_items_left p {
+        font-size: var(--font_slider_st);
+        max-width: 200px;
+        color: var(--texte);
+        font-weight: 500;
+    }
+
+    .slide_text_service_items_right button {
+        background: none;
+        border: 1px solid var(--texte);
+        padding: 10px;
+        color: var(--texte);
+        font-size: var(--font_button2);
+        border-radius: 5px;
+        font-weight: 600;
+    }
+
+    /* about */
+    .about_right {
+        display: none;
+    }
+
+    .equipe_photo {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card_pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    .card_text p {
+        font-size: 10pt;
+    }
+
+    .card_text h4 {
+        font-size: 9pt;
+        font-weight: 600;
+    }
+
+    .card_icons_circle {
+        width: 25px;
+        height: 25px;
+    }
+
+    .equipe_card {
+        width: 90%;
+        align-items: center;
+        border: 1px solid #ff7200;
+    }
+
+    /* contact page */
+    .contact_right {
+        display: none;
+    }
+
+    .contact_card {
+        top: 30%;
+        left: 7%;
+    }
+
+    .contact_left {
+        margin-left: 20px;
+        width: 100%;
     }
 
 }

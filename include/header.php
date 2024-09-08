@@ -44,14 +44,14 @@
                     </li>
                     <div class="social_media_all flex">
                         <div class="social_media_items flex facebok">
-                            <a href="https://www.facebook.com/Cotechcom"><img src="image/facebok.svg" alt=""></a>
+                            <a href="https://www.facebook.com/Cotechcom"><img src="image/facebook.svg" alt=""></a>
                         </div>
                         <div class="social_media_items flex insta">
-                            <a href="https://www.instagram.com/cotechcom/"><img src="image/instagram.svg" alt=""></a>
+                            <a href="https://www.instagram.com/cotechcom/"><img src="image/insta.svg" alt=""></a>
                         </div>
                         <div class="social_media_items flex linkedin">
                             <a href="https://www.linkedin.com/company/103672188/admin/page-posts/published/"><img
-                                    src="image/linkedin.svg" alt=""></a>
+                                    src="image/link.svg" alt=""></a>
                         </div>
                         <div class="social_media_items flex twitter">
                             <a href="https://x.com/cotechcom"><img src="image/x.svg" alt=""></a>

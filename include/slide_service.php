@@ -111,7 +111,7 @@
             <div class="all_services flex">
                 <div class="wow animate__animated animate__fadeInRight animated services_item flex">
                     <div class="flip-card flex">
-                        <a href="">
+                        <a>
                             <div class="flip-card-inner flex">
                                 <div class="flip-card-front flex">
                                     <div class="flip-card-front-image flex">
@@ -140,7 +140,7 @@
                         </a>
                     </div>
                     <div class="flip-card flex">
-                        <a href="">
+                        <a href="service_read.php">
                             <div class="flip-card-inner flex">
                                 <div class="flip-card-front flex">
                                     <div class="flip-card-front-image flex">
@@ -169,7 +169,7 @@
                         </a>
                     </div>
                     <div class="flip-card flex">
-                        <a href="">
+                        <a href="service_read.php">
                             <div class="flip-card-inner flex">
                                 <div class="flip-card-front flex">
                                     <div class="flip-card-front-image flex">
@@ -198,7 +198,7 @@
                         </a>
                     </div>
                     <div class="flip-card flex">
-                        <a href="">
+                        <a href="service_read.php">
                             <div class="flip-card-inner flex">
                                 <div class="flip-card-front flex">
                                     <div class="flip-card-front-image flex">
@@ -227,7 +227,7 @@
                         </a>
                     </div>
                     <div class="flip-card flex">
-                        <a href="">
+                        <a href="service_read.php">
                             <div class="flip-card-inner flex">
                                 <div class="flip-card-front flex">
                                     <div class="flip-card-front-image flex">
@@ -256,7 +256,7 @@
                         </a>
                     </div>
                     <div class="flip-card flex">
-                        <a href="">
+                        <a href="service_read.php">
                             <div class="flip-card-inner flex">
                                 <div class="flip-card-front flex">
                                     <div class="flip-card-front-image flex">
@@ -285,7 +285,7 @@
                         </a>
                     </div>
                     <div class="flip-card flex">
-                        <a href="">
+                        <a href="service_read.php">
                             <div class="flip-card-inner flex">
                                 <div class="flip-card-front flex">
                                     <div class="flip-card-front-image flex">
@@ -314,36 +314,7 @@
                         </a>
                     </div>
                     <div class="flip-card flex">
-                        <a href="">
-                            <div class="flip-card-inner flex">
-                                <div class="flip-card-front flex">
-                                    <div class="flip-card-front-image flex">
-                                        <div class="circle_service">
-                                            <img src="image/icons_btp.svg" alt="Avatar">
-                                        </div>
-                                        <p>Bâtiments & Travaux Publics</p>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="flip-card-back-image">
-                                        <img src="image/service_btp.png" alt="">
-                                    </div>
-                                    <div class="flip-card-back-filter">
-                                        <div class="flip-card-back-circle flex">
-                                            <div class="circle_service_back">
-                                                <img src="image/icons_btp.svg" alt="Avatar">
-                                            </div>
-                                            <div class="circle_service_text">
-                                                <p>Bâtiments & Travaux Publics</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="flip-card flex">
-                        <a href="">
+                        <a href="service_read.php">
                             <div class="flip-card-inner flex">
                                 <div class="flip-card-front flex">
                                     <div class="flip-card-front-image flex">
@@ -373,12 +344,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="button2 button button_phone">
             <a href="service.php">
-                <div class="button2 button button_phone">
-                    <p>Tous les services</p>
-                </div>
+                <p>Tous les services</p>
             </a>
-
         </div>
     </div>
 </div>

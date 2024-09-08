@@ -13,7 +13,7 @@ include('include/header.php')
 </div>
 
 <div class="service_page space2 flex space_bottom">
-    <div class="flip-card flex">
+    <div class="flip-card flip-card-phone flex">
         <a href="service_read.php">
             <div class="flip-card-inner flex">
                 <div class="flip-card-front flex">
@@ -42,7 +42,7 @@ include('include/header.php')
             </div>
         </a>
     </div>
-    <div class="flip-card flex">
+    <div class="flip-card flip-card-phone flex">
         <a href="service_read.php">
             <div class="flip-card-inner flex">
                 <div class="flip-card-front flex">
@@ -71,7 +71,7 @@ include('include/header.php')
             </div>
         </a>
     </div>
-    <div class="flip-card flex">
+    <div class="flip-card flip-card-phone flex">
         <a href="service_read.php">
             <div class="flip-card-inner flex">
                 <div class="flip-card-front flex">
@@ -100,7 +100,7 @@ include('include/header.php')
             </div>
         </a>
     </div>
-    <div class="flip-card flex">
+    <div class="flip-card flip-card-phone flex">
         <a href="service_read.php">
             <div class="flip-card-inner flex">
                 <div class="flip-card-front flex">
@@ -129,7 +129,7 @@ include('include/header.php')
             </div>
         </a>
     </div>
-    <div class="flip-card flex">
+    <div class="flip-card flip-card-phone flex">
         <a href="service_read.php">
             <div class="flip-card-inner flex">
                 <div class="flip-card-front flex">
@@ -158,7 +158,7 @@ include('include/header.php')
             </div>
         </a>
     </div>
-    <div class="flip-card flex">
+    <div class="flip-card flip-card-phone flex">
         <a href="service_read.php">
             <div class="flip-card-inner flex">
                 <div class="flip-card-front flex">
@@ -187,7 +187,7 @@ include('include/header.php')
             </div>
         </a>
     </div>
-    <div class="flip-card flex">
+    <div class="flip-card flip-card-phone flex">
         <a href="service_read.php">
             <div class="flip-card-inner flex">
                 <div class="flip-card-front flex">
@@ -216,7 +216,7 @@ include('include/header.php')
             </div>
         </a>
     </div>
-    <div class="flip-card flex">
+    <div class="flip-card flip-card-phone flex">
         <a href="service_read.php">
             <div class="flip-card-inner flex">
                 <div class="flip-card-front flex">
@@ -245,7 +245,7 @@ include('include/header.php')
             </div>
         </a>
     </div>
-    <div class="flip-card flex">
+    <div class="flip-card flip-card-phone flex">
         <a href="service_read.php">
             <div class="flip-card-inner flex">
                 <div class="flip-card-front flex">

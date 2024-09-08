@@ -124,3 +124,8 @@ include('include/service_items.php')
         sur IP mais aussi des infos sur les numéros spéciaux ou les standards téléphoniques.
     </p>
 </div>
+
+
+<?php
+include('include/footer.php')
+?>
