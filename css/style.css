@@ -58,7 +58,7 @@ a .button {
     border-radius: 50px;
 }
 
-a .button_phone {
+.button_phone a {
     display: none;
 }
 
