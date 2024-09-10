@@ -2,12 +2,13 @@
 include('include/header.php')
 ?>
 
-<div class="slide_service_about_contact slide_contact space_top space_contact">
+<div class="slide_service_about_contact slide_contact space_top space_form">
     <div class="slide_filter_service flex">
         <div class="slide_text_service space2">
-            <h1>Contactez-<span class="text_color">nous</span></h1>
-            <p>L'équipe de Cotechcom est à votre écoute pour répondre à
-                toutes vos demandes.</p>
+            <div class="slide_text_service_items_left flex">
+                <img src="image/icons_btp.svg" alt="">
+                <p>Bâtiments & Travaux publics</p>
+            </div>
         </div>
     </div>
 </div>
@@ -16,9 +17,9 @@ include('include/header.php')
     <div class="contact_card_items flex">
         <div class="contact_left space_top space_bottom">
             <div class="write_text">
-                <p>Laissez-nous un message</p>
+                <p>Remplissez le formulaire</p>
             </div>
-            <form id="">
+            <form action="send_form.php" id="contactForm" method="POST">
                 <div class="write_rect">
                     <input class="prenom" type="text" name="prenom" id="nom" placeholder="Nom & Prénom" required>
                 </div>
@@ -26,7 +27,14 @@ include('include/header.php')
                     <input class="mail" type="email" name="mail" id="mail" placeholder="Adresse mail" required>
                 </div>
                 <div class="write_rect">
-                    <textarea class="texte" name="textarea" id="textarea" placeholder="Votre message ici..."
+                    <input class="number" type="number" name="number" id="number" placeholder="Numéro de téléphobe"
+                        required>
+                </div>
+                <div class="write_rect">
+                    <input class="city" type="text" name="city" id="city" placeholder="Votre adresse" required>
+                </div>
+                <div class="write_rect">
+                    <textarea class="texte" name="textarea" id="textarea" placeholder="Votre secteur d'activité"
                         required></textarea>
                 </div>
                 <input type="submit" value="Envoyer">
@@ -95,3 +103,4 @@ include('include/header.php')
 <?php
 include('include/footer.php')
 ?>
+

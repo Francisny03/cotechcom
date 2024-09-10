@@ -36,7 +36,7 @@
             </div>
             <div class="choicetext choicetext1">
                 <div class="choicetextTitle">
-                    <p>Satisfaction client </p>
+                    <p>Qualité rapport-client </p>
                 </div>
                 <div class="choicetextSub">
                     <p>Votre satisfaction est notre priorité. Nous mettons tout en œuvre
@@ -52,11 +52,11 @@
             </div>
             <div class="choicetext choicetext1">
                 <div class="choicetextTitle">
-                    <p>Engagement qualité</p>
+                    <p>Engagement fiabilité</p>
                 </div>
                 <div class="choicetextSub">
                     <p>
-                        Nous nous engageons à fournir des services de haute qualité,
+                       Cotechcom s'engage à vous fournir des services de qualité,
                         répondant aux standards les plus stricts.</p>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                     <p>Réactivité et flexibilité </p>
                 </div>
                 <div class="choicetextSub">
-                    <p>Nous sommes disponibles et adaptables pour répondre rapidement à 
+                    <p>Nous sommes disponibles 24h/24 pour répondre rapidement à 
                         toutes vos demandes.</p>
                 </div>
             </div>

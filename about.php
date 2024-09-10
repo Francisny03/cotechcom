@@ -106,22 +106,21 @@ include('include/header.php')
             <div class="equipe_card">
                 <center>
                     <div class="card_pic flex">
-                        <img src="image/regis.png" alt="">
+                        <img src="image/natacha.jpg" alt="">
                     </div>
                 </center>
 
                 <div class="card_text">
-                    <p>Régis Lionel A. BADJIOKILA CANTEY</p>
-                    <h4>Directeur Gérant</h4>
+                    <p>Natacha KOMIEN</p>
+                    <h4>Responsable administratif & RH</h4>
                 </div>
                 <div class="card_icons flex">
-                    <a
-                        href="https://www.linkedin.com/in/regis-lionel-a-badjiokila-cantey-3831b7198/?originalSubdomain=cg">
+                    <a href="https://www.linkedin.com/in/natacha-komien-05a58896/">
                         <div class="card_icons_circle flex">
                             <img src="image/link2.svg" alt="">
                         </div>
                     </a>
-                    <a href="mailto:regisbadjiokila@cotechcom.com">
+                    <a href="mailto:natahca.komien@cotechcom.com">
                         <div class="card_icons_circle flex">
                             <img src="image/envelope2.svg" alt="">
                         </div>
@@ -131,13 +130,13 @@ include('include/header.php')
             <div class="equipe_card">
                 <center>
                     <div class="card_pic flex">
-                        <img src="image/regis.png" alt="">
+                        <img src="image/jenny.png" alt="">
                     </div>
                 </center>
 
                 <div class="card_text">
-                    <p>Régis Lionel A. BADJIOKILA CANTEY</p>
-                    <h4>Directeur Gérant</h4>
+                    <p>Jennyfer IBARA</p>
+                    <h4>Assistante commerciale & marketing</h4>
                 </div>
                 <div class="card_icons flex">
                     <a
@@ -146,7 +145,7 @@ include('include/header.php')
                             <img src="image/link2.svg" alt="">
                         </div>
                     </a>
-                    <a href="mailto:regisbadjiokila@cotechcom.com">
+                    <a href="mailto:jennyfer.ibara@cotechcom.com">
                         <div class="card_icons_circle flex">
                             <img src="image/envelope2.svg" alt="">
                         </div>

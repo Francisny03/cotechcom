@@ -203,7 +203,10 @@ nav ul li a.activer {
     height: 15px;
 }
 
-.circle_phone_logo img {
+.circle_phone i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(0%) hue-rotate(144deg) brightness(102%) contrast(102%);
 }
@@ -404,7 +407,7 @@ nav ul li a.activer {
 }
 
 .flip-card a {
-    width: 248px;
+    width: 228px;
     height: 240px;
     perspective: 1000px;
 }
@@ -916,17 +919,6 @@ nav ul li a.activer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 
 footer {
@@ -1141,6 +1133,11 @@ h2 {
     transition: all 0.5s ease 0s;
 }
 
+.service_items_fiche {
+    width: 60%;
+    margin: auto;
+}
+
 .service_items_fiche p {
     text-align: justify;
     font-size: 13pt;
@@ -1268,7 +1265,9 @@ h2 {
 
 .prenom,
 .mail,
-.texte {
+.texte,
+.number,
+.city {
     width: 80%;
     height: 40px;
     background: none;
@@ -1311,7 +1310,7 @@ input[type="submit"]:hover {
     width: 40%;
 }
 
-.contact_right_card_icons{
+.contact_right_card_icons {
     margin-top: 80px;
 }
 

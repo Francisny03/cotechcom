@@ -63,11 +63,11 @@
         <div class="footer_items_center">
             <h2>A <span class="text_color">Propos</span></h2>
             <div class="page_link">
-                <p><a href="index.php">
+                <p><a href="about.php">
                         Qui sommes-nous ?
                     </a>
                 </p>
-                <p><a href="index.php">
+                <p><a href="best_show.php">
                         Nos réalisations
                     </a>
                 </p>

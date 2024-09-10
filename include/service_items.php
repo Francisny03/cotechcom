@@ -6,7 +6,9 @@
                 <p>Bâtiments & Travaux publics</p>
             </div>
             <div class="slide_text_service_items_right">
-                <button>Demander un devis</button>
+                <form action="devis.php">
+                    <button onclick="devis.php">Demander un devis</button>
+                </form>
             </div>
         </div>
     </div>
